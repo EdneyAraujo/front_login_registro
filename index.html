@@ -27,19 +27,28 @@
                 <h2>Login</h2>
                 <form action="#">
                     <div class="input-box">
-                        <samp class="icon"></samp>
+                        <samp class="icon"><ion-icon name="mail"></ion-icon></samp>
                         <input type="email" required>
                         <label>Email</label>
                     </div>
                     <div class="input-box">
-                        <samp class="icon"></samp>
+                        <samp class="icon"><ion-icon name="lock-closed"></ion-icon></samp>
                         <input type="password" required>
                         <label>Senha</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Lembrar</label>
+                        <a href="#">Recuperar Senha?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="login-register">
+                        <p>Não Tenho Conta<a href="#" class="register-link">Registrar</a></p>
                     </div>
                 </form>
             </div>
         </div>
-
-
+        <script src="script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
